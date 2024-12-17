@@ -1,11 +1,11 @@
-import Button from "./Bouton"; // Import du composant Button
+import Bouton from "../../../ui/Bouton/bouton";
 
 export function Footer() {
   return (
     <div>
       <footer>
         <p>Voici mon footer</p>
-        <Button /> {/* Utilisation du bouton */}
+        <Bouton/>
       </footer>
     </div>
   );
