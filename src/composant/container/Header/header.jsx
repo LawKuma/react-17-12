@@ -2,7 +2,7 @@ import "react";
 import reactLogo from "/src/assets/react.svg"; // chemin absolu basé sur la racine du projet
 import viteLogo from "/vite.svg"; // Chemin pour le logo Vite
 
-function Header() {
+export function Header() {
   return (
     <header>
       <div>
